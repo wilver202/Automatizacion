@@ -53,7 +53,7 @@ public class SeleniumTest {
             Format audioFormat = null;  // Sin audio en este caso
 
             // Inicialización del grabador de pantalla
-            screenRecorder = new MyScreenRecorder(gc,
+            screenRecorder = new ScreenRecorder(gc,
                     new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()),
                     fileFormat, screenFormat, mouseFormat, audioFormat, movieDir);
             screenRecorder.start();  // Comienza la grabación

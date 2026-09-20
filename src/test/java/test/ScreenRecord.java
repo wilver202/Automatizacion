@@ -2,13 +2,13 @@ package test;
 
 import org.monte.media.Format;
 import org.monte.media.Registry;
-import org.monte.recorder.Record;
+import org.monte.screenrecorder.ScreenRecorder;
 
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class ScreenRecord extends Record{
+public class ScreenRecord extends ScreenRecorder{
     // Constructor que pasa los parámetros necesarios al constructor de la clase base Record
     public ScreenRecord(GraphicsConfiguration cfg, Rectangle captureArea, Format fileFormat, Format screenFormat,
                             Format mouseFormat, Format audioFormat, File movieFolder)
