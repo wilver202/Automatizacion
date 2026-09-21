@@ -7,7 +7,7 @@ import org.monte.screenrecorder.ScreenRecorder;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
-
+//procedimiento
 public class ScreenRecord extends ScreenRecorder{
     // Constructor que pasa los parámetros necesarios al constructor de la clase base Record
     public ScreenRecord(GraphicsConfiguration cfg, Rectangle captureArea, Format fileFormat, Format screenFormat,
